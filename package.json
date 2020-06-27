@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-starter-kit-lite",
+  "version": "1.0.0",
+  "description": "A nodejs starter toolkit lite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w --environment NODE_ENV:development",
+    "build": "SET NODE_ENV=development rollup -c"
+  },
+  "author": "Akshil Shah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "line-reader": "^0.4.0",
+    "mongoose": "^5.5.4",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@rollup/plugin-run": "^2.0.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^26.0.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "prettier": "^1.15.2",
+    "rimraf": "^2.6.2",
+    "rollup": "^2.10.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-local-resolve": "^1.0.7"
+  }
+}
